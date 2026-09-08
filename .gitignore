@@ -1,8 +1,10 @@
 .venv/
 __pycache__/
 *.pyc
-data/
+data/*
+!data/meeting_records/
 checkpoints/
 *.wav
+!data/meeting_records/**/*.wav
 *.rttm
 .DS_Store
